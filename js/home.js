@@ -33,12 +33,13 @@ var theQuote = [
 
 ];
 
-var checker = 20 ;
+var checker = -1 ;
 function generateQuotes(){
       do{
-        var randomIndex = Math.floor(Math.random() * theQuote.length) ;
+            var randomIndex = Math.floor(Math.random() * theQuote.length) ;
+           
       }while(checker === randomIndex)
-    
+      checker = randomIndex ;
       var x  = theQuote[randomIndex].thequote ;
       var y = theQuote[randomIndex].theauthor ;
      
