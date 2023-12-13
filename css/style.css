@@ -1,0 +1,16 @@
+#qouate-sec{
+    background-image: url(../images/magical);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.main-div{
+    border-radius: 50px;
+
+    border: 5px solid white;
+    font-size: 25px;
+    font-weight:bolder ;
+    background-color: rgba(13, 188, 232, 0.8);
+}
